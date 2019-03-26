@@ -13,7 +13,7 @@ import DocumentClassifier
 class NewsHelper{
   
   func getArticles(returnArticles: @escaping([Article]) -> Void){
-    Alamofire.request("https://newsapi.org/v2/top-headlines?country=us&apiKey=7dc6f8715a7948fdab4f5103add2ab0e").responseJSON{
+    Alamofire.request("https://newsapi.org/v2/top-headlines?country=us&apiKey=YourKey").responseJSON{
       
       (response)
       in
